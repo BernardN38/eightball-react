@@ -1,0 +1,36 @@
+.Eightball-question {
+    display:flex;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.Eightball-answer {
+    display: none;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.Eightball-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+#eightball-reset-btn {
+    position: fixed;
+    top: 17rem
+}
